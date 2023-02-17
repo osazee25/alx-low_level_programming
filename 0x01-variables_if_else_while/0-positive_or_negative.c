@@ -1,5 +1,5 @@
 #include <stdlib.h>
-#include <fime.h>
+#include <time.h>
 #include <stdio.h>
 /**
  * main - a program that tells whether a given
