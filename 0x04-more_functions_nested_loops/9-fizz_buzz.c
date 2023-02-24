@@ -2,7 +2,7 @@
 #include "main.h"
 /**
  * main - prints a fizz buzz program
- * Return: Always 0 (success)
+i * Return: Always 0 (success)
  */
 int main(void)
 {
@@ -16,7 +16,7 @@ int main(void)
 	}
 	else if (x % 3 == 0)
 	{
-	printf("fizz");
+	printf("Fizz");
 	}
 	else if (x % 5 == 0)
 	{
