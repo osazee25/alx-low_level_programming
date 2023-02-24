@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- * print_triangles - prints a triangle of squares according to parameter
+ * print_triangle - prints a triangle of squares according to parameter
  * @size: the size of the squares of the triangle
  * Return: void
  */
-void print_triangles(int size)
+void print_triangle(int size)
 {
 	int x, y, z;
 
