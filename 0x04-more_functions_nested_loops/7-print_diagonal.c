@@ -1,12 +1,12 @@
-#include "main.h"
+#include "main"
 /**
- * print_diagonal - draws a diagonal line
- * @n: number of times \ is printed
+ * print_diagonal - draws a diagonal line n times
+ * @n: the number of times to print diagonals
  * Return: void
  */
 void print_diagonal(int n)
 {
-	int x;
+	int x, y;
 
 	if (n <= 0)
 	{
@@ -16,7 +16,11 @@ void print_diagonal(int n)
 	{
 	for (x = 0; x < n; x++)
 	{
-	_putchar(47);
+	for (y = 0; y < x; y++)
+	{
+	_putchar(32);
+	}
+	_putchar(92);
 	_putchar('\n');
 	}
 	}
