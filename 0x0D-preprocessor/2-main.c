@@ -2,7 +2,7 @@
 
 /**
  * main - contains the file name in string literal
- * Return - 0
+ * Return: 0
  */
 
 int main(void)
