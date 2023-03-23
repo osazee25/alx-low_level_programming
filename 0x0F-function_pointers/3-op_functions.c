@@ -41,7 +41,7 @@ int op_div(int a, int b)
 {
 	if (b == 0)
 	{
-		printf("undefined\n");
+		printf("error\n");
 		exit(100);
 	}
 	return (a / b);
