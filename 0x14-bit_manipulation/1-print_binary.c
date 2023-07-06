@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * print_binary - prints binary rep of a number
  * @n: integer
@@ -13,10 +12,9 @@ void print_binary(unsigned long int n)
 		{
 			print_binary(n >> 1);
 		}
-		
 		_putchar((n & 1) + '0');
 	}
-		else
+	else
 		{
 			_putchar('0');
 		}
