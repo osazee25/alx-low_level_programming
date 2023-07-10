@@ -5,7 +5,7 @@
 #include <fcntl.h>
 #include <unistd.h>
 
-void check_IO_stat(int stat, int fd, char *filename, char mode);
+void check_status(int status, int file, char *filename, char mode);
 /**
  * main - copies the content of one file to another
  * @argc: argument count
@@ -46,14 +46,14 @@ int main(int argc, char *argv[])
 
 /**
  * check_status - checks if a file can be opened or closed
- * @stat: file descriptor of the file to be opened
+ * @status: file descriptor of the file to be opened
  * @filename: name of the file
  * @mode: closing or opening
- * @fd: file descriptor
+ * @file: file descriptor
  *
  * Return: void
  */
-void check_stat(int status, int file, char *filename, char mode)
+void check_status(int status, int file, char *filename, char mode)
 {
 	if (mode == 'C' && stat == -1)
 	{
