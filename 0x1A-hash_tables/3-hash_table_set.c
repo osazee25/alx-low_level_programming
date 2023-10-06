@@ -1,4 +1,7 @@
 #include "hash_tables.h"
+
+hash_node_t *create_new_node (const char *key, const char *value);
+
 /**
  * hash_table_set - adds an element to the hash table.
  * @ht: hash table
