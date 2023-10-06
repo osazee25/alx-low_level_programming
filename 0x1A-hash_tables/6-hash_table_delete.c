@@ -1,4 +1,7 @@
 #include "hash_tables.h"
+
+void free_hash_list(hash_node_t *head);
+
 /**
  * hash_table_delete - deletes a hash table
  * @ht: the hash table you want to delete
